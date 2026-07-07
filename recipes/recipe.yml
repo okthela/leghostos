@@ -19,14 +19,23 @@ modules:
 
   - type: dnf
     repos:
-      copr:
-        - atim/starship
+      files: 
+        - vscode.repo
+        - terra.repo
     install:
       packages:
         - vim
         - zsh
         - chromium
         - alacritty
+        - code
+        - clang
+        - rust
+        - cargo
+        - clippy
+        - nim
+        - cmake
+
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)

@@ -1,0 +1,9 @@
+[terra]
+name=Terra 44
+baseurl=https://repos.fyralabs.com/terra44/
+enabled=1
+gpgcheck=1
+repo_gpgcheck=0
+gpgkey=https://repos.fyralabs.com/terra44/key.asc
+metadata_expire=6h
+priority=100
